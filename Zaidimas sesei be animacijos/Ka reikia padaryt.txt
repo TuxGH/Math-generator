@@ -1,0 +1,6 @@
+---Sukurti sunkejimo mygtuka kuris veiktu ir pasunkintu  
+pliusines uzduotis
+minusines uzduotis 
+daugybos uzduotis
+
+---TAIP pat dirbti ant dizaino 

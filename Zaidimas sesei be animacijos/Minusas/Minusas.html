@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaidimas</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    
+   <nav>
+        <ul class="leftside"> 
+            <li>
+                <a id="pliusas" class="pliusas">Pliusas</a>
+            </li>
+            <li>
+                <a id="minusas"  class="minusas">Minusas</a>
+            </li>
+
+            <li>
+                <a id="kartojimas" class="daugyba" >Daugyba</a>
+            </li>
+        </ul>
+            <ul class="rightside">
+            <li>
+                <a class="rightside"  id="hard"  >Padidinti sunkumą</a>
+            </li>
+            <li>
+                <a class="rightside" id="easy"  >Pamažinti</a>  
+            </li>
+        </ul>
+        
+    </nav>
+
+    <div class="mid">
+        <h3>Minusinės užduotys<br>
+            Teisingai atsakiai:<span id="correct"></span>
+        </h3>
+    </div>
+
+    <div class="parent">
+        
+        <div class="div1" id="11question"></div>
+        <input class="div2" id="answer"  >
+        <button class="div3" id="check"  onclick="check()">Patikrinti(Enter)</button>
+       <h1 class="div4">Sunkumas: <span id="difficulty">1</span></h1>
+        <h1 class="div5"> Atsakymas: <span id="atsakymas"></span></h1>
+    </div>
+   
+   
+    
+
+
+
+<script src="javascriptMIN.js"></script>
+</body>
+</html>
